@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let string = window.prompt("¿Me das una palabra en minúscula?");
+      let lenght = string.length;
+      let mitad = lenght / 2;
+
+      let mitadMinus = string.substring(0, mitad);
+      let mitadMayus = string.substring(mitad).toUpperCase();
+
+      console.log("La primera mitad en minúsculas:  " + mitadMinus);
+      console.log("La segunda mitad en mayúsculas: " + mitadMayus);
+    </script>
+  </body>
+</html>
